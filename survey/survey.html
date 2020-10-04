@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="survey.css">
+</head>
+
+<body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title"> SAO Quiz </h1>
+<p id="description"> Think you know all there is to know about SAO? Take this quiz to find out! </p>
+<form id="survey-form">
+  <label id="name-label" for="name"> What is your name? </label>
+  <input id="name" name="name" placeholder="John Smith" required>
+  <br>
+  <label id="email-label" for="email"> What is your email? </label>
+  <input type="email" id="email" name="email" placeholder="john.smith@gmail.com" required>
+  <br>
+  <label id="number-label" for="number"> How old are you? </label>
+  <input id="number" type="number" min="12" max="100" name="number" placeholder="21">
+  <p> Who is the main character? </p>
+  <label><input type="radio" value="Kirito" name="char">Kirito</label>
+  <br>
+  <label><input type="radio" value="Asuna" name="char">Asuna</label>
+  <br>
+  <label><input type="radio" value="Suguha" name="char">Suguha</label>
+  <p> What is the name of the first SAO movie? </p>
+  <select id="dropdown">
+    <option value="spider_man">Spider Man </option>
+    <option value="super_man">Super Man </option>
+    <option value="dog_man">Dog Man</option>
+    <option value="ordinal_scale">Ordinal Scale</option>
+  </select>
+  <p> Which game are you most excited for? </p>
+  <input type="checkbox" value="SAO">
+  <label> Sword Art Online </label>
+  <br>
+  <input type="checkbox" value="GGO">
+  <label> Gun Gale Online </label>
+  <br>
+  <input type="checkbox" value="UW">
+  <label> Underworld </label>
+  <br>
+  <br>
+  <p> What are some of your thoughts on SAO? </p>
+  <textarea> Enter additional comments about SAO here </textarea>
+  <br>
+  <br>
+  <input id="submit" type="submit">
+</form>
+</body>
+</html>
