@@ -1,0 +1,174 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body {
+  background-color: #eee;
+  font-family: "Lato";
+  margin: 0;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background-color: #add8e6;
+}
+nav {
+  margin-left: auto;
+}
+ul {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: 3vh;
+}
+#header-img {
+  margin-left: 2vw;
+  width: 300px;
+}
+#intro {
+  text-align: center;
+  padding-top: 15vh;
+  height: 40vh;
+}
+#submit {
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 0;
+  background-color: #f1c40f;
+  font-weight: 900;
+}
+
+#text1 {
+  margin-top: 0;
+}
+
+#head1 {
+  margin-bottom: 0;
+}
+
+.grid {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  width: 7vw;
+  color: darkorange;
+}
+
+#video {
+  display: block;
+  height: 315px;
+  width: 30%;
+  margin: auto;
+}
+
+.desc {
+  width: 100%;
+}
+
+#features {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 7vh;
+}
+
+#how-it-works {
+  margin-bottom: 10vh;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  background-color: #ddd;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+}
+
+.chart {
+  height: 300px;
+  width: 300px;
+  border: 1px solid;
+  margin-right: 1vw;
+}
+
+.chart > h2 {
+  text-align: center;
+}
+
+.chart > ol {
+  text-align: center;
+  padding: 0;
+}
+
+.chart > ol > li {
+  padding: 5px;
+}
+.chart > button {
+  background-color: #f1c40f;
+  text-transform: uppercase;
+
+  display: block;
+  width: 100%;
+  border: 0;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.chart {
+  height: 100%;
+}
+
+#pricing {
+  margin-bottom: 10vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #ddd;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .logo > img {
+    margin: 0 auto;
+  }
+}
+
+footer > ul > li {
+  margin: 0;
+  margin-right: 20px;
+}
+
+footer > span {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
